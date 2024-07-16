@@ -1,0 +1,122 @@
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px 20px;
+    color: white;
+}
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 50px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    color: white;
+}
+
+header nav ul li a:hover {
+    opacity: 1;
+}
+
+main {
+    max-width: 1200px;
+    margin: 10px auto 15px auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro, .manufacturers, .usage, .graphics-types {
+    margin-bottom: 20px;
+}
+
+.intro h2, .manufacturers h2, .graphics-types h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.intro p, .manufacturers p, .usage p, .graphics-types p {
+    margin-bottom: 10px;
+}
+.manufacturers img{
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin: auto;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px 0;
+}
+.graphics-types ul{
+    padding-left: 35px;
+}
+
+.unordinary {
+    list-style-type: none;
+    padding: 0;
+}
+
+.unordinary li {
+    margin-bottom: 10px;
+}
+
+.unordinary li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.unordinary li a:hover {
+    color: blue;
+}
+footer{
+    background-color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 3px;
+    color: white;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
